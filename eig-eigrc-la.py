@@ -34,7 +34,7 @@ def nn(A,pozaCautataVect,norm):
     return pozitia
 
 def configurareA():
-	caleBD=r'F:\zSCOALA\acs folder\proiect\att_faces'
+	caleBD=r'F:\zSCOALA\acs folder\proiect\att_faces' #calea catre folder cu poze de recunoastere
 	for i in range(1,nrPersoane+1):
 		caleFolderPers=caleBD+'\s'+str(i)+'\\'
 		for j in range(1,nrPozeAntrenare+1):
